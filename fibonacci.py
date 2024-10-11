@@ -3,5 +3,9 @@ def fibonacci(n):
         return
     elif n in {0, 1}:
         return n
-    return fibonacci(n - 1) + fibonacci(n - 2)
-print(fibonacci(n))
+    
+    a, b = 0, 1
+    for i in range(2, n + 1):
+        a, b = b, a + b
+    return b
+print(fibonacci(10))
