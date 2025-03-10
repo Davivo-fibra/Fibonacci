@@ -1,1 +1,1 @@
-fiz com muito carinho Thales S2
+função em python para resolver fibonacci
